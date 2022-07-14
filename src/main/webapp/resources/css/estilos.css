@@ -1,0 +1,2333 @@
+@charset "ISO-8859-1";
+body
+{
+    margin: 0;
+    padding: 0;  
+}
+
+.carousel-inner img {
+    margin: auto;
+  }
+
+#myCarousel{
+    margin-top: 20px;
+}
+
+
+.quantity input{
+    width: 100px;
+}
+
+span {
+    color: red;
+  }
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#logo{
+    margin-top: -35px;
+    margin-left: 55px;
+}
+
+#imagen-goodyear{
+    width: 230px;
+    height: 140px;
+    margin-top: -49px;
+    margin-left: -30px;
+}
+
+#imagen-continental{
+    width: 330px;
+    height: 140px;
+    margin-top: -49px;
+    margin-left: -30px;
+}
+
+/*EFECTOS BOTONES IZQUIERDA*/
+.izquierda ul li ul
+{
+    display:none ;
+    position: relative;
+}
+
+.izquierda ul li:hover > ul{
+    display: block;
+}
+
+.izquierda ul li ul{
+    right: 30px;
+    top: 0px;
+}
+
+
+.izquierda
+{
+    background-color: aqua;
+    width: 40%;
+    height: 100vh;
+}
+
+.izquierda button 
+{
+    width: 50%;
+    height: 60%;
+    background-color: white;
+}
+
+.izquierda button img
+{
+    width: 45%;
+    height: 45%;
+    
+}
+
+.derecha
+{
+    background-color:white;
+    width: 60%;
+    height: 70%;
+}
+
+.derecha
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content:left;
+}
+
+
+.pie-pagina{
+    /*background-color: chartreuse;*/
+    width: 100%;
+    height: autovh;
+}
+
+#pantalla_dividida
+{
+    display: flex;
+}
+
+
+/*mostrar neumaticos */
+.grid-neumaticos-austone{
+    display: none;
+}
+
+
+.grid-neumaticos-austone.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto auto;
+    align-items:center;
+    gap: 25px;
+    margin: 10px 0px;
+    font-weight: bold;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    padding: 25px 25px;
+}
+
+.grid-neumaticos-bridgestone{
+    display: none;
+}
+
+.grid-neumaticos-bridgestone.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 25px;
+    margin: 10px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.grid-neumaticos-goodyear{
+    display: none;
+}
+
+.grid-neumaticos-goodyear.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 25px;
+    margin: 10px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.grid-neumaticos-continental{
+    display: none;
+}
+
+.grid-neumaticos-continental.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 25px;
+    margin: 10px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+
+
+/*MOSTRAR BATERIAS*/
+.grid-bateria-autobatt{
+    display: none;    
+}
+
+.grid-bateria-autobatt.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-auto-rows: 30px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 25px;
+    margin: 10px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.grid-bateria-autostye{
+    display: none;
+}
+
+.grid-bateria-autostye.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 25px;
+    margin: 10px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.grid-bateria-bosch{
+    display: none;
+}
+
+.grid-bateria-bosch.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 25px;
+    margin: 10px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.grid-bateria-hankook{
+    display: none;
+}
+
+.grid-bateria-hankook.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 25px;
+    margin: 10px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.grid-bateria-karson{
+    display: none;
+}
+
+.grid-bateria-karson.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 25px;
+    margin: 10px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+
+/*MOSTRAR LUBRICANTES*/
+.grid-lubricantes{
+    display: none;    
+}
+
+.grid-lubricantes.opciones{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 25px;
+    margin: 10px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+/*cambiar id por clases*/
+/*DETALLES PRESENTACION*/
+/*neumaticos*/
+.detalle-austone,
+.detalle-bridgestone,
+.detalle-goodyear,
+.detalle-continental{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.detalle-austone:hover,
+.detalle-bridgestone:hover,
+.detalle-goodyear:hover,
+.detalle-continental:hover{
+    border-radius: 15px;
+    border: 5px solid forestgreen;
+}
+
+.detalle-austone:active
+{
+    display: block;
+}
+
+
+/*baterias*/
+.detalle-autobatt,
+.detalle-autostyle,
+.detalle-bosch,
+.detalle-hankook,
+.detalle-karson{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.detalle-autobatt:hover,
+.detalle-autostyle:hover,
+.detalle-bosch:hover,
+.detalle-hankook:hover,
+.detalle-karson:hover{
+    border-radius: 15px;
+    border: 8px solid forestgreen;
+}
+
+/*lubricantes*/
+.detalle-lubricantes{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.detalle-lubricantes:hover{
+    border-radius: 15px;
+    border: 5px solid forestgreen;
+}
+
+
+
+/*estilo botones*/
+.menu-btn
+{
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    z-index: 2;
+    font-size: 1.5rem;
+    display: none;
+    color: blue;
+}
+
+.btn-principal
+{
+    cursor:pointer;
+    display: grid;
+    align-items: center;
+    text-align:center;
+    font-weight:bold;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 2px solid;
+    margin: 5px 0;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    width: 40%;
+    height: 40%;
+}
+
+.btn-principal:hover
+{
+    background-color: red;
+    
+}
+
+.btn-principal:focus{
+    background-color: darkgreen;
+}
+
+.btn-principal:active
+{
+    background-color: blue;
+    display: block;
+
+}
+
+.btn-comprar,
+.btn-comprar-baterias{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.btn-comprar:hover,
+.btn-comprar-baterias:hover{
+    cursor:grab;
+}
+
+/*Detalle focus botones de compra*/
+.btn-comprar:focus,
+.btn-comprar-baterias:focus{
+    background-color: red;
+}
+
+
+
+#neu-austone,
+#neu-bridgestone,
+#neu-goodyear,
+#neu-continental{
+    cursor:pointer;
+    display: inline-block;
+    font-weight:bold;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 2px solid;
+    margin: 5px 0;
+
+}
+
+#autobatt,
+#autostyle,
+#bosch,
+#hankook,
+#karson{
+    cursor:pointer;
+    display: inline-block;
+    font-weight:bold;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 2px solid;
+    margin: 5px 0;
+
+}
+
+#lubricantes{
+    cursor:pointer;
+    display: inline-block;
+    font-weight:bold;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 2px solid;
+    margin: 5px 0;
+
+}
+
+
+.neu:hover
+{
+    opacity: 0.8;
+}
+
+
+/*PIE DE PAGINA*/
+.social{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkred;
+    margin-bottom: 50px;
+    margin-right: 150px;
+}
+
+.links{
+        margin-top: -25px;
+        margin-left: 55px;
+        color:gold;
+    }
+    
+    
+
+@media screen and (max-width: 1440px){
+    body{
+        background-color: burlywood;
+    }
+    
+    .izquierda{
+        background-color: burlywood;
+    }
+
+    .derecha{
+        background-color: burlywood;
+    }
+
+    .detalle-austone{
+        line-height: 2px;
+        background-color: white;
+    }
+
+    .detalle-bridgestone,
+    .detalle-goodyear,
+    .detalle-continental{
+        background-color: white;
+    }
+
+    .detalle-bridgestone h3,
+    .detalle-goodyear h3,
+    .detalle-continental h3{
+        line-height: 16px;
+    }
+    
+    .detalle-bridgestone h4,
+    .detalle-goodyear h4,
+    .detalle-continental h4{
+        line-height: 2px;
+    }
+
+    .detalle-bridgestone strong,
+    .detalle-goodyear strong,
+    .detalle-continental strong{
+        line-height: 2px;
+    }
+
+    .detalle-autobatt,
+    .detalle-autostyle,
+    .detalle-bosch,
+    .detalle-hankook,
+    .detalle-karson{
+        line-height: 2px;
+        background-color: white;
+    }
+
+    .detalle-lubricantes{
+        line-height: 2px;
+        background-color: white;
+    }
+
+    .pie-pagina{
+        line-height: 2px;
+    }
+
+    .social
+    {
+    margin: 50px;
+    }
+
+    .social h4
+    {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    }
+
+    .links
+    {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .links a
+    {
+    line-height: 120px;
+    margin: 20 30px;
+    }
+
+    .links a i
+    {
+    font-size: 3rem;
+    }
+
+    .btn-comprar,
+    .btn-comprar-baterias{
+        background-color:aquamarine;
+        color:black;
+        text-align: center;
+        margin-bottom: 15px;
+        border-radius: 15px;
+        width: 55%;
+        height: 65%;
+    }
+
+    /*AJUSTE BOTONES PRINCIPAL*/
+    .btn-principal
+    {
+    cursor:pointer;
+    display: grid;
+    align-items: center;
+    text-align:center;
+    font-weight:bold;
+    padding: 10px 20px;
+    font-size: 25px;
+    border: 2px solid;
+    margin: 5px 0;
+    background-color:darkgray;
+    color: white;
+    text-align:center;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    width: 60%;
+    height: 60%;
+    }
+
+    /*AJUSTE BOTONES*/
+    /*ajuste botones neumaticos*/
+    #neu-austone,
+    #neu-bridgestone,
+    #neu-goodyear,
+    #neu-continental{
+        height: 65px;
+        width: 205px;
+    }
+
+    #neu-austone img,
+    #neu-bridgestone img,
+    #neu-goodgear img,
+    #neu-continental img
+    {
+        height: 57px;
+        width: 180px;
+        margin: -12px 0;
+    }
+
+
+    /*ajuste botones baterias*/
+    #autobatt,
+    #autostyle,
+    #bosch,
+    #hankook,
+    #karson{
+        height: 65px;
+        width: 205px;
+    }
+
+    #autobatt img,
+    #autostyle img,
+    #bosch img,
+    #hankook img,
+    #karson img
+    {
+        height: 57px;
+        width: 180px;
+        margin: -12px 0;
+    }
+
+
+    /*ajuste botones lubricantes*/
+    #lubricantes{
+        height: 65px;
+        width: 205px;
+    }
+
+    #lubricantes img
+    {
+        height: 57px;
+        width: 180px;
+        margin: -12px 0;
+    }
+
+
+    /*AJUSTE PRODUCTOS*/
+    /*mostrar neumaticos */
+    .grid-neumaticos-austone.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto auto;
+    align-items:center;
+    gap: 55px;
+    margin: 15px 0px;
+    font-weight: bold;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    padding: 20px 20px;
+    }
+
+    .grid-neumaticos-bridgestone.opciones{
+        display: grid;
+        grid-auto-rows: 30px;
+        grid-auto-columns: 30px;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        align-items: center;
+        gap: 55px;
+        margin: 15px 0px;
+        font-weight: bold;
+        justify-content: center;
+        padding: 20px 20px;
+    }
+
+    .grid-neumaticos-goodyear.opciones{
+        display: grid;
+        grid-auto-rows: 30px;
+        grid-auto-columns: 30px;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        align-items: center;
+        gap: 55px;
+        margin: 15px 0px;
+        font-weight: bold;
+        justify-content: center;
+        padding: 20px 20px;
+    }
+        
+    .grid-neumaticos-continental.opciones{
+        display: grid;
+        grid-auto-rows: 30px;
+        grid-auto-columns: 30px;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        align-items: center;
+        gap: 55px;
+        margin: 15px 0px;
+        font-weight: bold;
+        justify-content: center;
+        padding: 20px 20px;
+    }
+
+
+    /*MOSTRAR BATERIAS*/
+    .grid-bateria-autobatt.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 55px;
+    margin: 15px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+    }
+
+    .grid-bateria-autostye.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 35px;
+    margin: 15px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+    }
+
+    .grid-bateria-bosch.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 35px;
+    margin: 15px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+    }
+
+    .grid-bateria-hankook.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 35px;
+    margin: 15px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+    }
+
+    .grid-bateria-karson.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 55px;
+    margin: 15px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+    }
+
+    /*MOSTRAR LUBRICANTES*/
+    .grid-lubricantes.opciones{
+        display: grid;
+        grid-auto-rows: 30px;
+        grid-auto-columns: 30px;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        align-items: center;
+        gap: 55px;
+        margin: 15px 0px;
+        font-weight: bold;
+        justify-content: center;
+        padding: 20px 20px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1024px){
+    body{
+        background-color:blueviolet ;
+    }
+    
+    .izquierda{
+        background-color:blueviolet;
+    }
+
+    .derecha{
+        background-color: blueviolet;
+    }
+
+    .detalle-austone,
+    .detalle-goodyear,
+    .detalle-lubricantes{
+        line-height: 17px;
+    }
+
+    .detalle-austone h3
+    .detalle-bridgestone h3,
+    .detalle-goodyear h3{
+        line-height: 2px;
+    }
+    
+    .detalle-lubricantes h3{
+        line-height: 18px;
+    }
+
+    .detalle-lubricantes h4{
+        line-height: 2px;
+    }
+
+    .detalle-goodyear h3,
+    .detalle-continental h3{
+        line-height: 18px;
+    }
+
+    .detalle-goodyear h4{
+        line-height: 6px;
+    }
+
+
+    .detalle-austone h4,
+    .detalle-bridgestone h4,
+    .detalle-goodyear h4,
+    .detalle-continental h4{
+        line-height: 2px;
+    }
+
+    .detalle-austone strong,
+    .detalle-bridgestone strong,
+    .detalle-goodyear strong,
+    .detalle-continental strong{
+        line-height: 2px;
+    }
+
+    .detalle-autobatt,
+    .detalle-autostyle,
+    .detalle-bosch,
+    .detalle-hankook,
+    .detalle-karson{
+        line-height: 2px;
+    }
+
+    .detalle-lubricantes{
+        line-height: 2px;
+    }
+
+    /*ajuste imagenes neumaticos*/
+    .detalle-austone img,
+    .detalle-bridgestone img,
+    .detalle-goodyear img,
+    .detalle-continental img{
+        margin-top: 7px;
+        width: 50%;
+        height: 50%;
+    }
+
+    /*ajuste imagenes baterias*/
+    .detalle-autobatt img,
+    .detalle-autostyle img,
+    .detalle-bosch img,
+    .detalle-hankook img,
+    .detalle-karson img{
+        margin-top: 7px;
+        width: 50%;
+        height: 50%;
+    }
+
+      /*ajuste imagenes lubricantes*/
+      .detalle-lubricantes img{
+          margin-top: 7px;
+          width: 50%;
+          height: 50%;
+      }
+  
+    .pie-pagina{
+        line-height: 2px;
+    }
+
+    .social
+    {
+    margin: 50px;
+    }
+
+    .social h4
+    {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    }
+
+    .links
+    {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .links a
+    {
+    line-height: 110px;
+    margin: 20px 30px;
+    }
+
+    .links a i
+    {
+    font-size: 3rem;
+    }
+
+    .btn-comprar,
+    .btn-comprar-baterias{
+        background-color:aquamarine;
+        color:black;
+        text-align: center;
+        margin-bottom: 15px;
+        border-radius: 15px;
+        width: 62%;
+        height: 65%;
+    }
+
+    /*AJUSTE BOTONES PRINCIPAL*/
+    .btn-principal
+    {
+    cursor:pointer;
+    display: grid;
+    align-items: center;
+    text-align:center;
+    font-weight:bold;
+    padding: 10px 20px;
+    font-size: 25px;
+    border: 2px solid;
+    margin: 5px 0;
+    background-color:darkgray;
+    color: white;
+    text-align:center;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    width: 60%;
+    height: 60%;
+    }
+
+    /*AJUSTE BOTONES*/
+    /*ajuste botones neumaticos*/
+    #neu-austone,
+    #neu-bridgestone,
+    #neu-goodyear,
+    #neu-continental{
+        height: 65px;
+        width: 205px;
+    }
+
+    #neu-austone img,
+    #neu-bridgestone img,
+    #neu-goodgear img,
+    #neu-continental img
+    {
+        height: 56px;
+        width: 170px;
+        margin: -9px 1;
+    }
+
+
+    /*ajuste botones baterias*/
+    #autobatt,
+    #autostyle,
+    #bosch,
+    #hankook,
+    #karson{
+        height: -45px;
+        width: -190px;
+        margin: -9px 1;
+    }
+
+    #autobatt img,
+    #autostyle img,
+    #bosch img,
+    #hankook img,
+    #karson img
+    {
+        height: 45px;
+        width: 140px;
+        margin: -12px 0;
+    }
+
+
+    /*ajuste botones lubricantes*/
+    #lubricantes{
+        height: 65px;
+        width: 205px;
+    }
+
+    #lubricantes img
+    {
+        height: 57px;
+        width: 180px;
+        margin: -12px 0;
+    }
+
+
+    /*AJUSTE PRODUCTOS*/
+    /*mostrar neumaticos */
+    .grid-neumaticos-austone.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto auto;
+    align-items:center;
+    gap: 55px;
+    margin: 15px 0px;
+    font-weight: bold;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    padding: 20px 20px;
+    }
+
+    .grid-neumaticos-bridgestone.opciones{
+        display: grid;
+        grid-auto-rows: 30px;
+        grid-auto-columns: 30px;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        align-items: center;
+        gap: 55px;
+        margin: 15px 0px;
+        font-weight: bold;
+        justify-content: center;
+        padding: 20px 20px;
+    }
+
+    .grid-neumaticos-goodyear.opciones{
+        display: grid;
+        grid-auto-rows: 30px;
+        grid-auto-columns: 30px;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        align-items: center;
+        gap: 55px;
+        margin: 15px 0px;
+        font-weight: bold;
+        justify-content: center;
+        padding: 20px 20px;
+    }
+        
+    .grid-neumaticos-continental.opciones{
+        display: grid;
+        grid-auto-rows: 30px;
+        grid-auto-columns: 30px;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        align-items: center;
+        gap: 55px;
+        margin: 15px 0px;
+        font-weight: bold;
+        justify-content: center;
+        padding: 20px 20px;
+    }
+
+
+    /*MOSTRAR BATERIAS*/
+    .grid-bateria-autobatt.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 55px;
+    margin: 15px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+    }
+
+    .grid-bateria-autostye.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 35px;
+    margin: 15px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+    }
+
+    .grid-bateria-bosch.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 35px;
+    margin: 15px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+    }
+
+    .grid-bateria-hankook.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 35px;
+    margin: 15px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+    }
+
+    .grid-bateria-karson.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 55px;
+    margin: 15px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+    }
+
+    /*MOSTRAR LUBRICANTES*/
+    .grid-lubricantes.opciones{
+        display: grid;
+        grid-auto-rows: 30px;
+        grid-auto-columns: 30px;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        align-items: center;
+        gap: 55px;
+        margin: 15px 0px;
+        font-weight: bold;
+        justify-content: center;
+        padding: 20px 20px;
+    }
+    
+
+}
+
+
+@media screen and (max-width: 786px){
+    body{
+        background-color:red ;
+    }
+    
+    .izquierda{
+        background-color:red;
+    }
+
+    .derecha{
+        background-color:red;
+    }
+
+    /*ajuste de texto en grid*/
+    .detalle-austone,
+    .detalle-goodyear,
+    .detalle-lubricantes{
+        line-height: 17px;
+    }
+
+    .detalle-austone h3
+    .detalle-bridgestone h3,
+    .detalle-goodyear h3{
+        line-height: 2px;
+    }
+    
+    .detalle-lubricantes h3{
+        line-height: 18px;
+    }
+
+    .detalle-lubricantes h4{
+        line-height: 2px;
+    }
+
+    .detalle-goodyear h3,
+    .detalle-continental h3{
+        line-height: 18px;
+    }
+
+    .detalle-goodyear h4{
+        line-height: 6px;
+    }
+
+
+    .detalle-austone h4,
+    .detalle-bridgestone h4,
+    .detalle-goodyear h4,
+    .detalle-continental h4{
+        line-height: 2px;
+    }
+
+    .detalle-austone strong,
+    .detalle-bridgestone strong,
+    .detalle-goodyear strong,
+    .detalle-continental strong{
+        line-height: 2px;
+    }
+
+    .detalle-autobatt,
+    .detalle-autostyle,
+    .detalle-bosch,
+    .detalle-hankook,
+    .detalle-karson{
+        line-height: 2px;
+    }
+
+    .detalle-lubricantes{
+        line-height: 2px;
+    }
+
+    /*AJUSTE IMAGENES*/
+    /*ajuste imagenes neumaticos*/
+    .detalle-austone img,
+    .detalle-bridgestone img,
+    .detalle-goodyear img,
+    .detalle-continental img{
+        margin-top: 7px;
+        width: 60%;
+        height: 60%;
+    }
+
+    /*ajuste imagenes baterias*/
+    .detalle-autobatt img,
+    .detalle-autostyle img,
+    .detalle-bosch img,
+    .detalle-hankook img,
+    .detalle-karson img{
+        margin-top: 7px;
+        width: 70%;
+        height: 70%;
+    }
+
+    /*ajuste imagenes lubricantes*/
+    .detalle-lubricantes img{
+        margin-top: 7px;
+        width: 50%;
+        height: 50%;
+    }
+  
+    .pie-pagina{
+        line-height: 2px;
+    }
+
+    .social
+    {
+    margin: 50px;
+    color: white;
+    }
+
+    .social h4
+    {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    }
+
+    .links
+    {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .links a
+    {
+    line-height: 100px;
+    margin: 10px 15px;
+    }
+
+    .links a i
+    {
+    font-size: 3rem;
+    color: white;
+    }
+
+    .btn-comprar,
+    .btn-comprar-baterias{
+        background-color:aquamarine;
+        color:black;
+        text-align: center;
+        margin-bottom: 15px;
+        border-radius: 15px;
+        width: 62%;
+        height: 65%;
+    }
+
+    /*AJUSTE BOTONES PRINCIPAL*/
+    .btn-principal
+    {
+    cursor:pointer;
+    display: grid;
+    align-items: center;
+    text-align:center;
+    font-weight:bold;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 2px solid;
+    margin: 5px 0;
+    background-color:white;
+    color:black;
+    text-align:center;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    width: 60%;
+    height: 60%;
+    }
+
+
+    /*AJUSTE BOTONES*/
+    /*ajuste botones neumaticos*/
+    #neu-austone,
+    #neu-bridgestone,
+    #neu-goodyear,
+    #neu-continental{
+        height: 65px;
+        width: 205px;
+    }
+
+    #neu-austone img,
+    #neu-bridgestone img,
+    #neu-goodgear img,
+    #neu-continental img
+    {
+        height: 56px;
+        width: 170px;
+        margin: -9px 1;
+    }
+
+
+    /*ajuste botones baterias*/
+    #autobatt,
+    #autostyle,
+    #bosch,
+    #hankook,
+    #karson{
+        height: -45px;
+        width: -190px;
+        margin: -9px 1;
+    }
+
+    #autobatt img,
+    #autostyle img,
+    #bosch img,
+    #hankook img,
+    #karson img
+    {
+        height: 45px;
+        width: 140px;
+        margin: -12px 0;
+    }
+
+
+    /*ajuste botones lubricantes*/
+    #lubricantes{
+        height: 65px;
+        width: 205px;
+    }
+
+    #lubricantes img
+    {
+        height: 57px;
+        width: 180px;
+        margin: -12px 0;
+    }
+
+
+    /*DETALLES PRESENTACION*/
+    /*neumaticos*/
+    .detalle-austone,
+    .detalle-bridgestone,
+    .detalle-goodyear,
+    .detalle-continental{
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    }
+
+    .detalle-austone:hover,
+    .detalle-bridgestone:hover,
+    .detalle-goodyear:hover,
+    .detalle-continental:hover{
+    border-radius: 15px;
+    border: 5px solid white;
+    }
+
+    .detalle-austone:active
+    {
+    display: block;
+    }
+
+
+    /*baterias*/
+    .detalle-autobatt,
+    .detalle-autostyle,
+    .detalle-bosch,
+    .detalle-hankook,
+    .detalle-karson{
+    border: 1px solid black;
+    text-align: center;
+    }
+
+    .detalle-autobatt:hover,
+    .detalle-autostyle:hover,
+    .detalle-bosch:hover,
+    .detalle-hankook:hover,
+    .detalle-karson:hover{
+    border-radius: 15px;
+    border: 8px solid white;
+    }
+
+    /*lubricantes*/
+    .detalle-lubricantes{
+    border: 1px solid black;
+    text-align: center;
+    }
+
+    .detalle-lubricantes:hover{
+    border-radius: 15px;
+    border: 5px solid white;
+    }
+
+
+    /*AJUSTE PRODUCTOS*/
+    /*mostrar neumaticos */
+    .grid-neumaticos-austone.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 20px;
+    grid-template-columns: auto auto;
+    align-items:center;
+    gap: 25px;
+    margin: 15px 0px;
+    font-weight: bold;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    padding: 15px 15px;
+    }
+
+    .grid-neumaticos-bridgestone.opciones{
+        display: grid;
+        grid-auto-rows: 30px;
+        grid-auto-columns: 20px;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        align-items: center;
+        gap: 25px;
+        margin: 15px 0px;
+        font-weight: bold;
+        justify-content: center;
+        padding: 15px 15px;
+    }
+
+    .grid-neumaticos-goodyear.opciones{
+        display: grid;
+        grid-auto-rows: 30px;
+        grid-auto-columns: 20px;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        align-items: center;
+        gap: 25px;
+        margin: 15px 0px;
+        font-weight: bold;
+        justify-content: center;
+        padding: 15px 15px;
+    }
+        
+    .grid-neumaticos-continental.opciones{
+        display: grid;
+        grid-auto-rows: 20px;
+        grid-auto-columns: 20px;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        align-items: center;
+        gap: 25px;
+        margin: 15px 0px;
+        font-weight: bold;
+        justify-content: center;
+        padding: 15px 15px;
+    }
+
+
+    /*MOSTRAR BATERIAS*/
+    .grid-bateria-autobatt.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 25px;
+    margin: 15px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+    }
+
+    .grid-bateria-autostye.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    gap: 25px;
+    margin: 15px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 15px 15px;
+    }
+
+    .grid-bateria-bosch.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 20px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    gap: 25px;
+    margin: 15px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+    }
+
+    .grid-bateria-hankook.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 20px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    gap: 25px;
+    margin: 15px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+    }
+
+    .grid-bateria-karson.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 20px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    gap: 25px;
+    margin: 15px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+    }
+
+    /*MOSTRAR LUBRICANTES*/
+    .grid-lubricantes.opciones{
+        display: grid;
+        grid-auto-rows: 30px;
+        grid-auto-columns: 20px;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        align-items: center;
+        gap: 25px;
+        margin: 15px 0px;
+        font-weight: bold;
+        justify-content: center;
+        padding: 20px 20px;
+    }   
+}
+
+
+@media screen and (max-width: 640px){
+    body{
+        background-color: white;
+    }
+
+    .izquierda{
+        background-color:white;
+    }
+
+    #imagen-goodyear{
+        width: 130px;
+        height: 98px;
+        margin-top: -32px;
+        margin-left: -24px;
+    }
+    
+
+
+    /*AJUSTE BOTONES PRINCIPAL*/
+    .btn-principal
+    {
+    cursor:pointer;
+    display: grid;
+    align-items: center;
+    text-align:center;
+    font-weight:bolder;
+    padding: 10px 10px;
+    font-size: 11px;
+    border: 2px solid;
+    margin: 4px 0;
+    background-color:red;
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    width: 95%;
+    height: 70%;
+    }
+
+    #neu-austone,
+    #neu-bridgestone,
+    #neu-goodyear,
+    #neu-continental{
+    cursor:pointer;
+    display: inline-block;
+    font-weight:bold;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: 2px solid;
+    margin: 5px 0;
+    }
+
+    /*ajuste botones neumaticos*/
+    #neu-austone,
+    #neu-bridgestone,
+    #neu-goodyear,
+    #neu-continental{
+        height: 45px;
+        width: 105px;
+    }
+
+    #neu-austone img,
+    #neu-bridgestone img,
+    #neu-goodgear img,
+    #neu-continental img
+    {
+        height: 35px;
+        width: 110px;
+        max-height: 80px;
+        max-width: 80px;
+    }
+
+
+    /*ajuste botones baterias*/
+    #autobatt,
+    #autostyle,
+    #bosch,
+    #hankook,
+    #karson{
+        height: 45px;
+        width: 105px;
+    }
+
+    #autobatt img,
+    #autostyle img,
+    #bosch img,
+    #hankook img,
+    #karson img
+    {
+        height: 25px;
+        width: 90px;
+        max-height: 80px;
+        max-width: 80px;
+    }
+
+
+    /*ajuste botones lubricantes*/
+    #lubricantes{
+        height: 45px;
+        width: 105px;
+    }
+
+    #lubricantes img
+    {
+        height: 25px;
+        width: 90px;
+        max-height: 80px;
+        max-width: 80px;
+    }
+
+    .btn-principal ul li button img{
+        width: 40px;
+    }
+  
+    .derecha
+    {
+    background-color:white;
+    width: 70%;
+    height: 70%;
+    }
+
+
+    .pie-pagina{
+        line-height: 2px;
+    }
+
+    .social
+    {
+    margin: 50px;
+    color: black;
+    }
+
+    .social h4
+    {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    }
+
+    .links
+    {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .links a
+    {
+    line-height: 100px;
+    margin: 10px 15px;
+    }
+
+    .links a i
+    {
+    font-size: 3rem;
+    color:black;
+    }
+
+    
+    /*DETALLES PRESENTACION*/
+    /*neumaticos*/
+    .detalle-austone,
+    .detalle-bridgestone,
+    .detalle-goodyear,
+    .detalle-continental{
+    border: 1px solid black;
+    text-align: center;
+    }
+
+    .detalle-austone:hover,
+    .detalle-bridgestone:hover,
+    .detalle-goodyear:hover,
+    .detalle-continental:hover{
+    border-radius: 15px;
+    border: 5px solid red;
+    }
+
+    .detalle-austone:active
+    {
+    display: block;
+    }
+
+
+    /*baterias*/
+    .detalle-autobatt,
+    .detalle-autostyle,
+    .detalle-bosch,
+    .detalle-hankook,
+    .detalle-karson{
+    border: 1px solid black;
+    text-align: center;
+    }
+
+    .detalle-autobatt:hover,
+    .detalle-autostyle:hover,
+    .detalle-bosch:hover,
+    .detalle-hankook:hover,
+    .detalle-karson:hover{
+    border-radius: 15px;
+    border: 8px solid red;
+    }
+
+    /*lubricantes*/
+    .detalle-lubricantes{
+    border: 1px solid black;
+    text-align: center;
+    }
+
+    .detalle-lubricantes:hover{
+    border-radius: 15px;
+    border: 5px solid  red;
+    }
+
+
+    /*AJUSTE PRODUCTOS*/
+    /*mostrar neumaticos */
+    .grid-neumaticos-austone.opciones{
+    display: grid;
+    grid-auto-rows: 15px;
+    grid-auto-columns: 15px;
+    grid-template-columns: auto auto;
+    align-items:center;
+    gap: 12px;
+    margin: 5px 0px;
+    font-weight: bold;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    padding: 25px 25px;
+    }
+
+    .grid-neumaticos-bridgestone.opciones{
+        display: grid;
+        grid-auto-rows: 30px;
+        grid-auto-columns: 30px;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        align-items: center;
+        gap: 25px;
+        margin: 10px 0px;
+        font-weight: bold;
+        justify-content: center;
+        padding: 20px 20px;
+    }
+
+    .grid-neumaticos-goodyear.opciones{
+        display: grid;
+        grid-auto-rows: 30px;
+        grid-auto-columns: 30px;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        align-items: center;
+        gap: 25px;
+        margin: 10px 0px;
+        font-weight: bold;
+        justify-content: center;
+        padding: 20px 20px;
+    }
+        
+    .grid-neumaticos-continental.opciones{
+        display: grid;
+        grid-auto-rows: 30px;
+        grid-auto-columns: 30px;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        align-items: center;
+        gap: 25px;
+        margin: 10px 0px;
+        font-weight: bold;
+        justify-content: center;
+        padding: 20px 20px;
+    }
+
+
+    /*MOSTRAR BATERIAS*/
+    .grid-bateria-autobatt.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-auto-rows: 30px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    gap: 25px;
+    margin: 10px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+    }
+
+    .grid-bateria-autostye.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    gap: 25px;
+    margin: 10px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+    }
+
+    .grid-bateria-bosch.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    gap: 25px;
+    margin: 10px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+    }
+
+    .grid-bateria-hankook.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    gap: 25px;
+    margin: 10px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+    }
+
+    .grid-bateria-karson.opciones{
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    gap: 25px;
+    margin: 10px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+    }
+
+    /*MOSTRAR LUBRICANTES*/
+    .grid-lubricantes.opciones{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    gap: 25px;
+    margin: 10px 0px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 20px;
+    }
+    
+}
+
+
+@media screen and (max-width: 320px){
+    body{
+        background-color:aquamarine ;
+    }
+    
+    .izquierda{
+        background-color:aquamarine;
+        margin-left: 20px;
+    }
+
+    .derecha{
+        background-color:aquamarine;
+    }
+
+    .izquierda
+    {
+    width: 38%;
+    height: 100vh;
+    }
+    
+    .derecha
+    {
+    width: 75%;
+    height: 70%;
+    }
+
+    #logo{
+        width: 30%;
+        height: 30%;
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    
+    #imagen-goodyear{
+        width: 90px;
+        height: 98px;
+        margin-top: -32px;
+        margin-left: -6px;
+    }
+
+    /*ajuste de texto en grid*/
+    .detalle-austone{
+        line-height: 17px;
+        font-size:auto;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .detalle-austone h3{
+        font-size:smaller;
+    }
+
+    .detalle-austone h4{
+        font-size:smaller;
+        line-height: 4px;
+    }
+    
+    .detalle-austone strong,
+    .detalle-bridgestone strong,
+    .detalle-goodyear strong,
+    .detalle-continental strong{
+        line-height: 2px;
+    }
+
+    .detalle-autobatt,
+    .detalle-autostyle,
+    .detalle-bosch,
+    .detalle-hankook,
+    .detalle-karson{
+        line-height: 2px;
+    }
+
+    .detalle-lubricantes{
+        line-height: 2px;
+    }
+
+    /*AJUSTE IMAGENES*/
+    /*ajuste imagenes neumaticos*/
+    .detalle-austone img,
+    .detalle-bridgestone img,
+    .detalle-goodyear img,
+    .detalle-continental img{
+        /*margin-top: 7px;*/
+        margin-left: -2px;
+        width: 60%;
+        height: 60%;
+    }
+
+    /*ajuste imagenes baterias*/
+    .detalle-autobatt img,
+    .detalle-autostyle img,
+    .detalle-bosch img,
+    .detalle-hankook img,
+    .detalle-karson img{
+        margin-top: 2px;
+        width: 60%;
+        height: 60%;
+    }
+
+    /*ajuste imagenes lubricantes*/
+    .detalle-lubricantes img{
+        margin-top: 7px;
+        width: 50%;
+        height: 50%;
+    }
+  
+    .pie-pagina{
+        line-height: 2px;
+    }
+
+    .social
+    {
+    margin: 50px;
+    color: white;
+    }
+
+    .social h4
+    {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    }
+
+    .links
+    {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .links a
+    {
+    line-height: 100px;
+    margin: 10px 15px;
+    }
+
+    .links a i
+    {
+    font-size: 3rem;
+    color: white;
+    }
+
+    .btn-comprar,
+    .btn-comprar-baterias{
+        background-color:chocolate;
+        color: white;
+        text-align: center;
+        font-size: smaller;
+        margin-bottom: 15px;
+        border-radius: 15px;
+        width: 78%;
+        height: 70%;
+    }
+
+    /*AJUSTE BOTONES PRINCIPAL*/
+    .btn-principal
+    {
+    cursor:pointer;
+    display: grid;
+    align-items: center;
+    text-align:left;
+    font-weight:bold;
+    padding: 15px 20px;
+    font-size: 12px;
+    border: 2px solid;
+    margin: 5px 0;
+    background-color:white;
+    color:black;
+    text-align:center;
+    border-radius: 15px;
+    width: 90%;
+    height: 55%;
+    }
+
+
+    .izquierda ul{
+        margin-left: -50px;
+    }
+
+    .izquierda ul li ul{
+        margin-left: 2.5px;
+    }
+
+    /*AJUSTE BOTONES*/
+    /*ajuste botones neumaticos*/
+    #neu-austone,
+    #neu-bridgestone,
+    #neu-goodyear,
+    #neu-continental{
+        height: 45px;
+        width: 95px;
+        margin: 5px 0;
+    }
+
+    #neu-austone img,
+    #neu-bridgestone img,
+    #neu-goodgear img,
+    #neu-continental img
+    {
+        height: 36px;
+        width: 170px;
+        margin: -9px 1;
+    }
+
+
+    /*ajuste botones baterias*/
+    #autobatt,
+    #autostyle,
+    #bosch,
+    #hankook,
+    #karson{
+        height: 45px;
+        width: 95px;
+    }
+
+    #autobatt img,
+    #autostyle img,
+    #bosch img,
+    #hankook img,
+    #karson img
+    {
+        height: 40px;
+        width: 70px;
+        margin-left: -12px;
+    }
+
+
+    /*ajuste botones lubricantes*/
+    #lubricantes{
+        height: 45px;
+        width: 95px;
+    }
+
+    #lubricantes img
+    {
+        height: 36px;
+        width: 100px;
+        margin-left: -12px;
+
+    }
+
+
+    /*DETALLES PRESENTACION*/
+    /*neumaticos*/
+    .detalle-austone,
+    .detalle-bridgestone,
+    .detalle-goodyear,
+    .detalle-continental{
+    border: 1px solid black;
+    text-align: center;
+    }
+
+    .detalle-austone:hover,
+    .detalle-bridgestone:hover,
+    .detalle-goodyear:hover,
+    .detalle-continental:hover{
+    border-radius: 15px;
+    border: 5px solid white;
+    }
+
+    .detalle-austone:active
+    {
+    display: block;
+    }
+
+
+    /*baterias*/
+    .detalle-autobatt,
+    .detalle-autostyle,
+    .detalle-bosch,
+    .detalle-hankook,
+    .detalle-karson{
+    border: 1px solid black;
+    text-align: center;
+    }
+
+    .detalle-autobatt:hover,
+    .detalle-autostyle:hover,
+    .detalle-bosch:hover,
+    .detalle-hankook:hover,
+    .detalle-karson:hover{
+    border-radius: 15px;
+    border: 8px solid white;
+    }
+
+    /*lubricantes*/
+    .detalle-lubricantes{
+    border: 1px solid black;
+    text-align: center;
+    }
+
+    .detalle-lubricantes:hover{
+    border-radius: 15px;
+    border: 5px solid white;
+    }
+
+
+    /*AJUSTE PRODUCTOS*/
+    /*mostrar neumaticos */
+    .grid-neumaticos-austone.opciones,
+    .grid-neumaticos-bridgestone.opciones,
+    .grid-neumaticos-goodyear.opciones,
+    .grid-neumaticos-continental.opciones{
+    display:inline-flexbox;
+    grid-auto-rows: 10px;
+    grid-auto-columns: 15px;
+    gap: 5px;
+    margin-left: -12px;
+    margin: 20px 115;
+    font-weight: bold;
+    grid-template-rows: auto auto auto auto auto;
+    justify-content: center;
+    padding: 10px 10px;
+    }
+
+
+    /*MOSTRAR BATERIAS*/
+    .grid-bateria-autobatt.opciones,
+    .grid-bateria-autostye.opciones,
+    .grid-bateria-bosch.opciones,
+    .grid-bateria-hankook.opciones,
+    .grid-bateria-karson.opciones{
+    display:inline-flexbox;
+    grid-auto-rows: 10px;
+    grid-auto-columns: 15px;
+    gap: 5px;
+    margin-left: -12px;
+    margin: 20px 115;
+    font-weight: bold;
+    grid-template-rows: auto auto auto auto auto;
+    justify-content: center;
+    padding: 10px 10px;
+    }
+
+    /*MOSTRAR LUBRICANTES*/
+    .grid-lubricantes.opciones{
+        display:inline-flexbox;
+        grid-auto-rows: 10px;
+        grid-auto-columns: 15px;
+        gap: 5px;
+        margin-left: -12px;
+        margin: 20px 115;
+        font-weight: bold;
+        grid-template-rows: auto auto auto auto auto;
+        justify-content: center;
+        padding: 10px 10px;
+        }
+    
+}
+
+
+

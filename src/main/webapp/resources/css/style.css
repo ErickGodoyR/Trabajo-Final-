@@ -1,0 +1,153 @@
+#goodyear1,
+#goodyear2,
+#goodyear3,
+#goodyear4,
+#goodyear5{
+    transition:transform 1s;
+}
+
+#goodyear1:hover,
+#goodyear2:hover,
+#goodyear3:hover,
+#goodyear4:hover,
+#goodyear5:hover{
+    transform : scale(1.2);
+}
+
+#continental1,
+#continental2,
+#continental3,
+#continental4,
+#continental5{
+    transition:transform 1s;
+}
+
+#continental1:hover,
+#continental2:hover,
+#continental3:hover,
+#continental4:hover,
+#continental5:hover{
+    transform : scale(1.2);
+}
+
+#bridgestone1,
+#bridgestone2,
+#bridgestone3,
+#bridgestone4,
+#bridgestone5{
+    transition:transform 1s;
+}
+
+#bridgestone1:hover,
+#bridgestone2:hover,
+#bridgestone3:hover,
+#bridgestone4:hover,
+#bridgestone5:hover{
+    transform : scale(1.2);
+}
+
+
+#austone1,
+#austone2,
+#austone3,
+#austone4,
+#austone5{
+    transition:transform 1s;
+}
+
+#austone1:hover,
+#austone2:hover,
+#austone3:hover,
+#austone4:hover,
+#austone5:hover{
+    transform : scale(1.2);
+}
+
+
+#karson1,
+#karson2{
+    transition:transform 1s;
+}
+
+#karson1:hover,
+#karson2:hover{
+    transform : scale(1.2);
+}
+
+
+
+#hankook1,
+#hankook2,
+#hankook3,
+#hankook4{
+    transition:transform 1s;
+}
+
+#hankook1:hover,
+#hankook2:hover,
+#hankook3:hover,
+#hankook4:hover{
+    transform : scale(1.2);
+}
+
+#bosch1,
+#bosch2,
+#bosch3,
+#bosch4{
+    transition:transform 1s;
+}
+
+#bosch1:hover,
+#bosch2:hover,
+#bosch3:hover,
+#bosch4:hover{
+    transform : scale(1.2);
+}
+
+#autostyle1,
+#autostyle2,
+#autostyle3{
+    transition:transform 1s;
+}
+
+#autostyle1:hover,
+#autostyle2:hover,
+#autostyle3:hover{
+    transform : scale(1.2);
+}
+
+
+#autobatt1,
+#autobatt2{
+    transition:transform 1s;
+}
+
+#autobatt1:hover,
+#autobatt2:hover{
+    transform : scale(1.2);
+}
+
+#lubricantes1,
+#lubricantes2,
+#lubricantes3,
+#lubricantes4,
+#lubricantes5{
+    transition:transform 1s;
+}
+
+#lubricantes1:hover,
+#lubricantes2:hover,
+#lubricantes3:hover,
+#lubricantes4:hover,
+#lubricantes5:hover{
+    transform : scale(1.2);
+}
+
+
+#carrito1{
+    width: 210px;
+    height: 210px;
+}
+
+
+
